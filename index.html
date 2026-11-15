@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="mk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Телевизор и фрижидер – цени од A1</title>
+<style>
+:root{--bg:#f6f6f4;--card:#fff;--fg:#1c1c1c;--mut:#666;--line:#e2e2de;--acc:#d6001c;--ok:#1a7f37;--no:#b42318;--warn:#9a6700;--pick:#fff6d6;--down:#e7f6ea;--up:#fdecea}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#141414;--card:#1e1e1e;--fg:#eee;--mut:#aaa;--line:#333;--ok:#4ac26b;--no:#ff7b72;--warn:#d29922;--pick:#332b00;--down:#12301a;--up:#3a1614}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:1150px;margin:auto;padding:16px}
+h1{font-size:26px;margin:8px 0 4px}h2{font-size:21px;margin:28px 0 10px}h3{margin:18px 0 6px;font-size:18px}
+.mut{color:var(--mut);font-size:15px}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}
+nav button{font:inherit;padding:10px 18px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--fg);cursor:pointer}
+nav button.on{background:var(--acc);border-color:var(--acc);color:#fff}
+.bar{display:flex;gap:14px;flex-wrap:wrap;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+select,input{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--fg)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-top:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.card.pick{background:var(--pick);border-color:var(--warn)}
+.card img{width:100%;height:150px;object-fit:contain;background:#fff;border-radius:8px}
+.name{font-weight:700;font-size:18px}.name a{color:inherit}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-size:13px;padding:2px 8px;border-radius:99px;border:1px solid var(--line)}
+.tag.ok{color:var(--ok);border-color:var(--ok)}.tag.no{color:var(--no);border-color:var(--no)}.tag.q{color:var(--warn);border-color:var(--warn)}
+.specs{margin:0;padding-left:18px;font-size:14px;color:var(--mut)}
+.price{font-size:24px;font-weight:800}
+.prices{font-size:14px;border-top:1px dashed var(--line);padding-top:8px}
+.prices table{width:100%;border-collapse:collapse}.prices td{padding:2px 0}.prices td:last-child{text-align:right}
+.chg{padding:6px 10px;border-radius:8px;font-weight:700;font-size:15px}
+.chg.down{background:var(--down);color:var(--ok)}.chg.up{background:var(--up);color:var(--no)}.chg.same{color:var(--mut)}
+.note{font-size:14px}
+.badge{display:inline-block;background:var(--warn);color:#fff;font-size:13px;font-weight:700;padding:2px 8px;border-radius:6px}
+.guide{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:6px 18px 14px}
+.guide li{margin:4px 0}
+.btn{display:inline-block;margin-top:auto;text-align:center;padding:9px;border-radius:9px;background:var(--acc);color:#fff;text-decoration:none;font-weight:600}
+.hide{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Телевизор и фрижидер: цени од A1</h1>
+<div class="mut" id="meta">Се вчитува…</div>
+
+<nav>
+ <button data-tab="tv" class="on">📺 Телевизори</button>
+ <button data-tab="fridge">🧊 Фрижидери</button>
+ <button data-tab="guide">📖 Што да гледаме?</button>
+</nav>
+
+<div id="listView">
+ <div class="bar">
+  <label>Спореди цени од <select id="dA"></select></label>
+  <label>до <select id="dB"></select></label>
+  <label><input type="checkbox" id="inBudget" checked> само во буџетот (<span id="budgetTxt"></span>)</label>
+  <label>Подреди: <select id="sort">
+   <option value="pick">Препорака</option><option value="price">Цена ↑</option><option value="drop">Најголем попуст</option>
+  </select></label>
+ </div>
+ <div id="summary" class="mut" style="margin-top:10px"></div>
+ <div class="grid" id="grid"></div>
+</div>
+
+<div id="guideView" class="hide">
+ <div class="guide">
+ <h2>📺 Телевизор: што значат опциите</h2>
+ <ul>
+  <li><b>4K (Ultra HD)</b>: многу остра слика. Денес е стандард, па не земајте помалку од тоа за 50" и поголем екран.</li>
+  <li><b>LED / QLED / Mini LED</b>: квалитет на сликата, од основен кон најдобар. <b>QLED</b> дава поживи и посилни бои. <b>Mini LED</b> има подлабока црна боја. Ако сликата е најважна, барајте QLED или Mini LED.</li>
+  <li><b>HDR (HDR10, HDR10+, Dolby Vision)</b>: посветли светли делови и подобри детали во темно на Netflix и YouTube.</li>
+  <li><b>AirPlay 2</b>: пуштање слики и видеа од iPhone и iPad директно на ТВ. Го имаат Samsung, Hisense и Philips.</li>
+  <li><b>Google Cast (Chromecast)</b>: истото, но од Android телефон и Chrome. Го имаат телевизорите со Google TV (Tesla, Sony, TCL).</li>
+  <li><b>Оперативен систем</b>: Google TV има најмногу апликации. Tizen (Samsung) и VIDAA (Hisense) се брзи и едноставни. Titan OS (Philips) е нов.</li>
+  <li><b>Големина</b>: на 2 до 2,5 m од каучот, 55" е идеален. На помалку од 2 m, доволен е 50".</li>
+  <li><b>Без тјунер (Tuner less)</b>: нема вграден ТВ приемник за антена. Со A1 ТВ кутијата тоа не е проблем.</li>
+ </ul>
+ <h2>🧊 Фрижидер: што значат опциите</h2>
+ <ul>
+  <li><b>Тип</b>: <i>Комбиниран</i> е фрижидер горе и замрзнувач долу, стандард за семејство. <i>Side-by-Side</i> е со 2 врати, многу голем и скап. <i>Мал фрижидер</i> е околу 140 cm. <i>Замрзнувач (сандак)</i> не е фрижидер!</li>
+  <li><b>NoFrost</b>: не прави мраз и не мора да се одмрзнува. Многу препорачливо. „Рачно одмрзнување“ значи дека треба да се чисти мразот.</li>
+  <li><b>Енергетска класа</b>: од 2021 важи нова скала (A–G). Новата <b>C</b> е многу штедлива, околу <b>E</b> е просечно. Старите „A++“ се приближно E по новата скала. Најдобро е да се гледа бројката <b>kWh годишно</b>: помалку значи помала сметка за струја. 100 kWh разлика е околу 800–1.000 ден. годишно.</li>
+  <li><b>Литри (L)</b>: за 2–3 лица доволни се 300–350 L.</li>
+  <li><b>Бучава (dB)</b>: 35 dB е многу тивко, 40 dB е нормално.</li>
+  <li><b>Висина и ширина</b>: проверете дали ќе собере во кујната. Стандардно е околу 186 × 60 cm, а Side-by-Side е околу 91 cm широк.</li>
+  <li><b>Продолжена гаранција 2+3</b>: вкупно 5 години гаранција кај A1 за Samsung и Gorenje.</li>
+ </ul>
+ <h2>💰 Цените</h2>
+ <ul>
+  <li><b>Цена во A1</b> е цената што A1 ја прикажува во онлајн продавницата.</li>
+  <li><b>Редовна цена</b> е основната цена без попуст.</li>
+  <li>Секоја цена има <b>датум</b> кога е земена. Горе изберете два датуми (на пр. денес и Black Friday) и ќе видите колку поевтинило.</li>
+ </ul>
+ </div>
+</div>
+
+<p class="mut" style="margin-top:30px">Податоците се од <a href="https://www.a1.mk/webshop/mk/tv/shop">a1.mk</a>. Цените може да се променат, па проверете на линкот пред купување.</p>
+</div>
+
+<script>
+const fmt=n=>n==null?"–":n.toLocaleString("mk-MK")+" ден.";
+const fmtD=d=>{const [y,m,dd]=d.split("-");return `${dd}.${m}.${y}`};
+let DB,NOTES,tab="tv";
+
+function priceOn(p,date){ // цена на или пред тој датум
+  let h=null;for(const x of p.history) if(x.date<=date) h=x; return h;
+}
+function tag(v,label){
+  if(v===true) return `<span class="tag ok">✓ ${label}</span>`;
+  if(v===false) return `<span class="tag no">✗ ${label}</span>`;
+  return `<span class="tag q">? ${label}</span>`;
+}
+function render(){
+  const isGuide=tab==="guide";
+  document.getElementById("guideView").classList.toggle("hide",!isGuide);
+  document.getElementById("listView").classList.toggle("hide",isGuide);
+  if(isGuide) return;
+  const dA=document.getElementById("dA").value, dB=document.getElementById("dB").value;
+  const b=NOTES.budgets[tab], inB=document.getElementById("inBudget").checked;
+  document.getElementById("budgetTxt").textContent=(b.min?fmt(b.min)+" – ":"до ")+fmt(b.max);
+  const notes=NOTES[tab]||{};
+  let rows=Object.values(DB.products).filter(p=>p.category===tab).map(p=>{
+    const a=priceOn(p,dA), c=priceOn(p,dB), n=notes[p.id]||{};
+    const diff=a&&c&&a.a1Price&&c.a1Price? c.a1Price-a.a1Price : null;
+    return {p,a,c,n,diff,pct:diff!=null&&a.a1Price?diff/a.a1Price*100:null, gone:p.lastSeen<dB};
+  }).filter(r=>r.c);
+  if(inB) rows=rows.filter(r=>r.c.a1Price>=b.min && r.c.a1Price<=b.max || r.n.pick || (r.n.note||"").includes("над буџетот"));
+  const s=document.getElementById("sort").value;
+  rows.sort((x,y)=> s==="price"? x.c.a1Price-y.c.a1Price : s==="drop"? (x.pct??0)-(y.pct??0)
+    : (x.n.pick||99)-(y.n.pick||99) || x.c.a1Price-y.c.a1Price);
+  const drops=rows.filter(r=>r.diff<0).length, ups=rows.filter(r=>r.diff>0).length;
+  document.getElementById("summary").innerHTML = dA===dB
+    ? `Прикажани ${rows.length} производи. Цени на ден <b>${fmtD(dB)}</b>.`
+    : `Прикажани ${rows.length} производи. Споредба <b>${fmtD(dA)}</b> → <b>${fmtD(dB)}</b>: поевтинети <b>${drops}</b>, поскапени <b>${ups}</b>.`;
+  document.getElementById("grid").innerHTML=rows.map(({p,a,c,n,diff,pct,gone})=>{
+    const ch = dA===dB||diff==null ? "" : diff<0
+      ? `<div class="chg down">▼ ${fmt(-diff)} поевтино (−${(-pct).toFixed(1)}%)</div>`
+      : diff>0 ? `<div class="chg up">▲ ${fmt(diff)} поскапо (+${pct.toFixed(1)}%)</div>`
+      : `<div class="chg same">Цената е иста</div>`;
+    const off=c.basePrice&&c.a1Price<c.basePrice?Math.round((1-c.a1Price/c.basePrice)*100):0;
+    const tags = tab==="tv"
+      ? (n.panel?`<span class="tag">${n.panel}</span>`:"")+(n.os?`<span class="tag">${n.os}</span>`:"")+tag(n.airplay,"AirPlay")+tag(n.cast,"Google Cast")
+      : (n.type?`<span class="tag">${n.type}</span>`:"");
+    return `<div class="card${n.pick?" pick":""}">
+      ${n.pick?`<div><span class="badge">⭐ Препорака #${n.pick}</span></div>`:""}
+      <img loading="lazy" src="${p.image}" alt="">
+      <div class="name"><a href="${p.url}" target="_blank" rel="noopener">${p.brand} ${p.model}</a></div>
+      <div class="tags">${tags}</div>
+      <ul class="specs">${p.specs.map(x=>`<li>${x}</li>`).join("")}${p.badge?`<li>${p.badge}</li>`:""}</ul>
+      ${n.note?`<div class="note">💬 ${n.note}</div>`:""}
+      <div><span class="price">${fmt(c.a1Price)}</span> <span class="mut">на ${fmtD(c.date)}</span></div>
+      ${ch}
+      <div class="prices"><table>
+        <tr><td>Редовна цена</td><td><s>${fmt(c.basePrice)}</s>${off?` (−${off}%)`:""}</td></tr>
+        ${c.monthly?`<tr><td>На рати</td><td>${fmt(c.monthly)} × ${p.installments}</td></tr>`:""}
+        ${dA!==dB&&a?`<tr><td>Цена на ${fmtD(a.date)}</td><td>${fmt(a.a1Price)}</td></tr>`:""}
+        ${gone?`<tr><td colspan=2 style="color:var(--no)">Не е повеќе во A1 (последно: ${fmtD(p.lastSeen)})</td></tr>`:""}
+      </table></div>
+      <a class="btn" href="${p.url}" target="_blank" rel="noopener">Види во A1 →</a>
+    </div>`}).join("") || `<p>Нема производи за овој избор.</p>`;
+}
+Promise.all([fetch("data/prices.json").then(r=>r.json()),fetch("data/notes.json").then(r=>r.json())]).then(([d,n])=>{
+  DB=d;NOTES=n;
+  const opts=d.snapshots.map(s=>`<option value="${s.date}">${fmtD(s.date)}${s.label?" – "+s.label:""}</option>`).join("");
+  const A=document.getElementById("dA"),B=document.getElementById("dB");
+  A.innerHTML=opts;B.innerHTML=opts;A.value=d.snapshots[0].date;B.value=d.snapshots.at(-1).date;
+  document.getElementById("meta").innerHTML=`Последно ажурирање на цените: <b>${fmtD(d.updated)}</b>. Зачувани датуми: ${d.snapshots.map(s=>fmtD(s.date)+(s.label?` (${s.label})`:"")).join(", ")}`;
+  ["dA","dB","inBudget","sort"].forEach(id=>document.getElementById(id).onchange=render);
+  render();
+}).catch(e=>document.getElementById("meta").textContent="Грешка при вчитување на податоците: "+e);
+document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x===b));tab=b.dataset.tab;render();
+});
+</script>
+</body>
+</html>

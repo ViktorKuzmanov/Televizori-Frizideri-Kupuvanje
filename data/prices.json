@@ -1,0 +1,1694 @@
+{
+ "snapshots": [
+  {
+   "date": "2026-11-15",
+   "label": ""
+  }
+ ],
+ "products": {
+  "1000049407": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 159999,
+     "basePrice": 159999,
+     "monthly": 3376
+    }
+   ],
+   "id": "1000049407",
+   "category": "tv",
+   "brand": "TCL",
+   "model": "98C655",
+   "image": "https://www.a1.mk/documents/20126/3545808/C655-Front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/tcl-98c655/1000049407",
+   "specs": [
+    "98\" UHD QLED Google TV",
+    "61,00 kg",
+    "Smart TV with Google TV",
+    "4K QLED",
+    "2179 x 1289 x 420 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000058471": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 21352,
+     "basePrice": 30299,
+     "monthly": 633
+    }
+   ],
+   "id": "1000058471",
+   "category": "tv",
+   "brand": "Philips",
+   "model": "50PUS7000/12",
+   "image": "https://www.a1.mk/documents/20126/3854049/PUS7000-Front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/philips-50pus7000-12/1000058471",
+   "specs": [
+    "4K Ultra HD LED",
+    "7.92 kg",
+    "DVB-T/T2/T2-HD/C/S/S2",
+    "Wi-FI, Bluetooth, LAN",
+    "1111 x 670 x 256 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000058916": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 18756,
+     "basePrice": 25999,
+     "monthly": 579
+    }
+   ],
+   "id": "1000058916",
+   "category": "tv",
+   "brand": "Philips",
+   "model": "55PUS7810 4K UHD",
+   "image": "https://www.a1.mk/documents/20126/3919703/PUS7810-Front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/philips-55pus7810-4k-uhd/1000058916",
+   "specs": [
+    "TITAN",
+    "9.7 kg",
+    "DVB-T/T2/T2-HD/C/S/S2",
+    "4K Ultra HD QLED",
+    "1126 x 735 x 262 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000058417": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 30472,
+     "basePrice": 39399,
+     "monthly": 823
+    }
+   ],
+   "id": "1000058417",
+   "category": "tv",
+   "brand": "Philips",
+   "model": "65PUS7000/12",
+   "image": "https://www.a1.mk/documents/20126/3854049/PUS7000-Front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/philips-65pus7000-12/1000058417",
+   "specs": [
+    "DVB-T/T2/T2-HD/C/S/S2",
+    "13.91 kg",
+    "Smart TV",
+    "TITAN",
+    "1446 x 857 x 294 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000059543": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 42352,
+     "basePrice": 48999,
+     "monthly": 1070
+    }
+   ],
+   "id": "1000059543",
+   "category": "tv",
+   "brand": "Hisense",
+   "model": "75E7Q QLED",
+   "image": "https://www.a1.mk/documents/20126/3923581/E7Q.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/hisense-75e7q-qled/1000059543",
+   "specs": [
+    "VIDAA Smart OS",
+    "34.9kg",
+    "Game mode plus,AI Sports Mode,",
+    "QLED,4K ULTRA HD,3840x2160 pix",
+    "1676x965x87mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000058418": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 33352,
+     "basePrice": 39599,
+     "monthly": 883
+    }
+   ],
+   "id": "1000058418",
+   "category": "tv",
+   "brand": "Philips",
+   "model": "65PUS8010/12",
+   "image": "https://www.a1.mk/documents/20126/3854108/PUS8010.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/philips-65pus8010-12/1000058418",
+   "specs": [
+    "DVB-T/T2/T2-HD/C/S/S2",
+    "15.5 kg",
+    "Smart TV",
+    "TITAN",
+    "1446 x 901 x 302 mm"
+   ],
+   "badge": "продолжена гаранција 2+3 години",
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000057606": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 14392,
+     "basePrice": 22199,
+     "monthly": 488
+    }
+   ],
+   "id": "1000057606",
+   "category": "tv",
+   "brand": "Samsung",
+   "model": "UE43U7022FKXXH",
+   "image": "https://www.a1.mk/documents/20126/3839245/UE75U7022FKXXH-Front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/samsung-ue43u7022fkxxh/1000057606",
+   "specs": [
+    "Tizen OS, DVB-T2C",
+    "6,6kg",
+    "Wi-fi, BT, 3 HDMI, 1 USB, LAN",
+    "4K LED",
+    "957.8 x 609 x 157 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000057519": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 88312,
+     "basePrice": 92199,
+     "monthly": 2028
+    }
+   ],
+   "id": "1000057519",
+   "category": "tv",
+   "brand": "Samsung",
+   "model": "UE85U7022FKXXH",
+   "image": "https://www.a1.mk/documents/20126/3839245/UE75U7022FKXXH-Front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/samsung-ue85u7022fkxxh/1000057519",
+   "specs": [
+    "3 HDMI, 1 USB, LAN, CI+",
+    "29,2 kg",
+    "Wi-fi, BT, 3 HDMI, 1 USB, LAN",
+    "4K LED",
+    "1889.9x 1132.8 x 326 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000069964": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 122352,
+     "basePrice": 127599,
+     "monthly": 2841
+    }
+   ],
+   "id": "1000069964",
+   "category": "tv",
+   "brand": "Philips",
+   "model": "100PQS9001 4K120Hz QL S Amb",
+   "image": "https://www.a1.mk/documents/20126/4492010/PQS9001.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/philips-100pqs9001-4k120hz-ql-s-amb/1000069964",
+   "specs": [
+    "TITAN",
+    "46 kg",
+    "Ambilight, AmbiScape",
+    "4K Ultra HD QLED (VRR 144Hz)",
+    "2227 x 1352 x 406 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000067013": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 4752,
+     "basePrice": 12999,
+     "monthly": 287
+    }
+   ],
+   "id": "1000067013",
+   "category": "tv",
+   "brand": "Hisense",
+   "model": "32A4S",
+   "image": "https://www.a1.mk/documents/20126/3923581/A4S.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/hisense-32a4s/1000067013",
+   "specs": [
+    "VIDAA",
+    "4.5 kg",
+    "DVB-T/T2/C/S2",
+    "LED",
+    "72×47×18 cm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000064659": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 10199,
+     "basePrice": 10199,
+     "monthly": 234
+    }
+   ],
+   "id": "1000064659",
+   "category": "tv",
+   "brand": "Tesla",
+   "model": "32E655BHS G",
+   "image": "https://www.a1.mk/documents/20126/4130207/32E655BHS_Front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/tesla-32e655bhs-g/1000064659",
+   "specs": [
+    "Google Smart TV",
+    "2.9 kg",
+    "2 HDMI, 2 USB, LAN, CI+",
+    "DVB-T/T2/C/S/S2",
+    "716 x 461 x 180 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000067192": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 4792,
+     "basePrice": 12999,
+     "monthly": 288
+    }
+   ],
+   "id": "1000067192",
+   "category": "tv",
+   "brand": "Philips",
+   "model": "32PHS6050 Ultra Slim HD Led",
+   "image": "https://www.a1.mk/documents/20126/4306047/PHS6050.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/philips-32phs6050-ultra-slim-hd-led/1000067192",
+   "specs": [
+    "Ultra Slim HD LED",
+    "3.33 kg",
+    "Smart TV",
+    "TITAN",
+    "716 x 447 x 192 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000061996": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 4899,
+     "basePrice": 13899,
+     "monthly": 613
+    }
+   ],
+   "id": "1000061996",
+   "category": "tv",
+   "brand": "TCL",
+   "model": "32S5K FHD QLED AN60Hz",
+   "image": "https://www.a1.mk/documents/20126/4025774/S5K-Front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/tcl-32s5k-fhd-qled-an60hz/1000061996",
+   "specs": [
+    "Wi-fi, BT, 2 HDMI, 1 USB 2.0,",
+    "3,19 kg",
+    "DVB-T2/C/S2",
+    "32\" Full HD QLED Android TV",
+    "715 x 465 x 180 mm"
+   ],
+   "badge": null,
+   "installments": 24,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066330": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 11992,
+     "basePrice": 19999,
+     "monthly": 438
+    }
+   ],
+   "id": "1000066330",
+   "category": "tv",
+   "brand": "Hisense",
+   "model": "43A6S",
+   "image": "https://www.a1.mk/documents/20126/3923581/A6S.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/hisense-43a6s/1000066330",
+   "specs": [
+    "VIDAA",
+    "7.5 kg",
+    "DVB-T/T2/C/S2",
+    "LED",
+    "96×61×20 cm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000064660": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 9112,
+     "basePrice": 16699,
+     "monthly": 378
+    }
+   ],
+   "id": "1000064660",
+   "category": "tv",
+   "brand": "Tesla",
+   "model": "43E655BFS",
+   "image": "https://www.a1.mk/documents/20126/4130204/E655BFS_Front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/tesla-43e655bfs/1000064660",
+   "specs": [
+    "Google Smart TV",
+    "Black",
+    "3 HDMI, 2 USB, LAN, CI+",
+    "DVB-T/T2/C/S/S2",
+    "955 x 605 x 220 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000060489": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 8152,
+     "basePrice": 15799,
+     "monthly": 358
+    }
+   ],
+   "id": "1000060489",
+   "category": "tv",
+   "brand": "Philips",
+   "model": "43PUNT7620/10 Tuner less",
+   "image": "https://www.a1.mk/documents/20126/4126057/PUNT7620-Front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/philips-43punt7620-10-tuner-less/1000060489",
+   "specs": [
+    "4K Ultra HD LED",
+    "7.5 kg",
+    "Google",
+    "Wi-FI, Bluetooth, LAN",
+    "957 x 592 x 243 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000067014": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 17272,
+     "basePrice": 24999,
+     "monthly": 548
+    }
+   ],
+   "id": "1000067014",
+   "category": "tv",
+   "brand": "Hisense",
+   "model": "50A6S",
+   "image": "https://www.a1.mk/documents/20126/3923581/A6S.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/hisense-50a6s/1000067014",
+   "specs": [
+    "DVB-T/T2/C/S2",
+    "10kg",
+    "Smart TV,HDR, DTS Sound",
+    "VIDAA",
+    "112×70×22 cm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000067829": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 25872,
+     "basePrice": 32599,
+     "monthly": 727
+    }
+   ],
+   "id": "1000067829",
+   "category": "tv",
+   "brand": "TCL",
+   "model": "50C6KS QD-MiniLed G",
+   "image": "https://www.a1.mk/documents/20126/4025755/C6KS-Front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/tcl-50c6ks-qd-miniled-g/1000067829",
+   "specs": [
+    "Google 4K Mini-Led QLED TV",
+    "9,1 kg",
+    "DVB-T2/C/S2",
+    "4K Mini-Led QLED",
+    "1111 x 709 x 295 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000067015": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 20152,
+     "basePrice": 27999,
+     "monthly": 608
+    }
+   ],
+   "id": "1000067015",
+   "category": "tv",
+   "brand": "Hisense",
+   "model": "55A6S",
+   "image": "https://www.a1.mk/documents/20126/3923581/A6S.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/hisense-55a6s/1000067015",
+   "specs": [
+    "VIDAA",
+    "12 kg",
+    "DVB-T/T2/C/S2",
+    "LED",
+    "123×77×24 cm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000067016": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 24632,
+     "basePrice": 31999,
+     "monthly": 701
+    }
+   ],
+   "id": "1000067016",
+   "category": "tv",
+   "brand": "Hisense",
+   "model": "55E7S",
+   "image": "https://www.a1.mk/documents/20126/3923581/E7S.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/hisense-55e7s/1000067016",
+   "specs": [
+    "VIDAA",
+    "13 kg",
+    "DVB-T/T2/C/S2",
+    "QLED",
+    "123×77×24 cm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000060540": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 13432,
+     "basePrice": 20999,
+     "monthly": 468
+    }
+   ],
+   "id": "1000060540",
+   "category": "tv",
+   "brand": "Philips",
+   "model": "55PUNT7620/10 Tuner less",
+   "image": "https://www.a1.mk/documents/20126/4126057/PUNT7620-Front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/philips-55punt7620-10-tuner-less/1000060540",
+   "specs": [
+    "4K Ultra HD LED",
+    "11.5 kg",
+    "HDMI x 3; USB x 2",
+    "Wi-FI, Bluetooth, LAN",
+    "1226 x 741 x 243 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000069962": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 24932,
+     "basePrice": 31799,
+     "monthly": 707
+    }
+   ],
+   "id": "1000069962",
+   "category": "tv",
+   "brand": "Philips",
+   "model": "55PUS8001 4K UHD",
+   "image": "https://www.a1.mk/documents/20126/4492010/PUS8001.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/philips-55pus8001-4k-uhd/1000069962",
+   "specs": [
+    "TITAN",
+    "9.98 kg",
+    "DVB-T/T2/T2-HD/C/S/S2",
+    "4K Ultra HD LED",
+    "1226 x 776 x 278 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000067018": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 35192,
+     "basePrice": 41999,
+     "monthly": 921
+    }
+   ],
+   "id": "1000067018",
+   "category": "tv",
+   "brand": "Hisense",
+   "model": "65E7S",
+   "image": "https://www.a1.mk/documents/20126/3923581/E7S.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/hisense-65e7s/1000067018",
+   "specs": [
+    "VIDAA",
+    "19 kg",
+    "DVB-T/T2/C/S2",
+    "QLED",
+    "145×90×28 cm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000069963": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 47952,
+     "basePrice": 53299,
+     "monthly": 1187
+    }
+   ],
+   "id": "1000069963",
+   "category": "tv",
+   "brand": "Philips",
+   "model": "65MLED920 4K120Hz QD S Amb",
+   "image": "https://www.a1.mk/documents/20126/4492031/MLED920.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/philips-65mled920-4k120hz-qd-s-amb/1000069963",
+   "specs": [
+    "TITAN",
+    "15.94 kg",
+    "DVB-T/T2/T2-HD/C/S/S2",
+    "4K QD Mini-LED (VRR 144Hz)",
+    "1446 x 901 x 322 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000067900": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 29712,
+     "basePrice": 35999,
+     "monthly": 807
+    }
+   ],
+   "id": "1000067900",
+   "category": "tv",
+   "brand": "TCL",
+   "model": "65P6K 4K HDR G",
+   "image": "https://www.a1.mk/documents/20126/4325073/P6K.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/tcl-65p6k-4k-hdr-g/1000067900",
+   "specs": [
+    "Google TV",
+    "12.3 kg",
+    "DVB-T2/C/S2",
+    "4K LED",
+    "1446 x 878 x 300 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066880": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 33156,
+     "basePrice": 38999,
+     "monthly": 879
+    }
+   ],
+   "id": "1000066880",
+   "category": "tv",
+   "brand": "Philips",
+   "model": "65PUS8400 QLED Smart Amb",
+   "image": "https://www.a1.mk/documents/20126/4259970/PUS8400-Front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/philips-65pus8400-qled-smart-amb/1000066880",
+   "specs": [
+    "HDMI x 3; USB x 2",
+    "15.8 kg",
+    "Pixel Precise Ultra HD",
+    "DVB-T/T2/T2-HD/C/S/S2",
+    "1446 x 901 x 302 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000067019": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 50072,
+     "basePrice": 55999,
+     "monthly": 1231
+    }
+   ],
+   "id": "1000067019",
+   "category": "tv",
+   "brand": "Hisense",
+   "model": "75E7S",
+   "image": "https://www.a1.mk/documents/20126/3923581/E7S.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/hisense-75e7s/1000067019",
+   "specs": [
+    "VIDAA",
+    "25 kg",
+    "DVB-T/T2/C/S2",
+    "QLED",
+    "167×104×32 cm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000067901": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 42192,
+     "basePrice": 47999,
+     "monthly": 1067
+    }
+   ],
+   "id": "1000067901",
+   "category": "tv",
+   "brand": "TCL",
+   "model": "75P6k 4K HDR G",
+   "image": "https://www.a1.mk/documents/20126/4325073/P6K.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/tcl-75p6k-4k-hdr-g/1000067901",
+   "specs": [
+    "Google TV",
+    "18.2 kg",
+    "DVB-T2/C/S2",
+    "4K LED",
+    "1667 x 1027 x 349 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066501": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 47152,
+     "basePrice": 52599,
+     "monthly": 1170
+    }
+   ],
+   "id": "1000066501",
+   "category": "tv",
+   "brand": "Philips",
+   "model": "75PUS7810 4K UHD",
+   "image": "https://www.a1.mk/documents/20126/3919703/PUS7810-Front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/philips-75pus7810-4k-uhd/1000066501",
+   "specs": [
+    "DVB-T/T2/T2-HD/C/S/S2",
+    "22.47 kg",
+    "Wi-Fi, Bluetooth, LAN",
+    "TITAN",
+    "1669 x 988 x 333 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000067902": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 70992,
+     "basePrice": 74999,
+     "monthly": 1667
+    }
+   ],
+   "id": "1000067902",
+   "category": "tv",
+   "brand": "TCL",
+   "model": "85P7K QLED G",
+   "image": "https://www.a1.mk/documents/20126/4025795/TCL-P7K.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/tcl-85p7k-qled-g/1000067902",
+   "specs": [
+    "Wi-Fi, BT, LAN",
+    "31 kg",
+    "DVB-T2/C/S2",
+    "4K QLED",
+    "1889.6 x 1152 x 372 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066502": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 84232,
+     "basePrice": 86799,
+     "monthly": 1943
+    }
+   ],
+   "id": "1000066502",
+   "category": "tv",
+   "brand": "Philips",
+   "model": "85PUS8510 QLED+TAB 4208",
+   "image": "https://www.a1.mk/documents/20126/3919644/PUS8510-TAB4208-Front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/philips-85pus8510-qled+tab-4208/1000066502",
+   "specs": [
+    "Ambilight TV",
+    "53.52 kg",
+    "DVB-T/T2/T2-HD/C/S/S2",
+    "P5 Perfect Picture Engine",
+    "1894 x 1158 x 379 mm"
+   ],
+   "badge": "продолжена гаранција 2+3 години",
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066081": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 39112,
+     "basePrice": 45999,
+     "monthly": 1003
+    }
+   ],
+   "id": "1000066081",
+   "category": "tv",
+   "brand": "Sony",
+   "model": "K50S35B",
+   "image": "https://www.a1.mk/documents/20126/620062/KxxS35B.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/sony-k50s35b/1000066081",
+   "specs": [
+    "Android TV",
+    "12kg",
+    "DVB-T / DVB-T2",
+    "4K UHD",
+    "111,9 x 71, 4 x 26,7 cm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066082": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 41992,
+     "basePrice": 48999,
+     "monthly": 1063
+    }
+   ],
+   "id": "1000066082",
+   "category": "tv",
+   "brand": "Sony",
+   "model": "K55S35B",
+   "image": "https://www.a1.mk/documents/20126/620062/KxxS35B.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/sony-k55s35b/1000066082",
+   "specs": [
+    "4K UHD, HDR10,16 GB",
+    "16,3 kg",
+    "LED LCD panel, VA panel type",
+    "Android TV",
+    "123,3 x 78,4 x 33,4 cm"
+   ],
+   "badge": "продолжена гаранција 2+3 години",
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066083": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 56872,
+     "basePrice": 62999,
+     "monthly": 1373
+    }
+   ],
+   "id": "1000066083",
+   "category": "tv",
+   "brand": "Sony",
+   "model": "K65S35B",
+   "image": "https://www.a1.mk/documents/20126/620062/KxxS35B.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/sony-k65s35b/1000066083",
+   "specs": [
+    "4 × HDMI, 2 × USB",
+    "22,4 kg",
+    "Android TV",
+    "Wifi, Lan, Bluetooth",
+    "145,2 x 90,9 x 33,4 cm"
+   ],
+   "badge": "продолжена гаранција 2+3 години",
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066084": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 84719,
+     "basePrice": 89999,
+     "monthly": 1953
+    }
+   ],
+   "id": "1000066084",
+   "category": "tv",
+   "brand": "Sony",
+   "model": "K75S35B",
+   "image": "https://www.a1.mk/documents/20126/620062/KxxS35B.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/sony-k75s35b/1000066084",
+   "specs": [
+    "DVB-T / DVB-T2",
+    "33,4kg",
+    "4 × HDMI, 2 × USB,4K UHD",
+    "Android TV",
+    "167,5 x 104,2 x 41,0 cm"
+   ],
+   "badge": "продолжена гаранција 2+3 години",
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000064661": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 15352,
+     "basePrice": 22599,
+     "monthly": 508
+    }
+   ],
+   "id": "1000064661",
+   "category": "tv",
+   "brand": "Tesla",
+   "model": "Q50E655GUS G",
+   "image": "https://www.a1.mk/documents/20126/4130073/QxxE655GUS-front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/tesla-q50e655gus-g/1000064661",
+   "specs": [
+    "Google Smart TV",
+    "7.7 kg",
+    "3 HDMI, 2 USB, LAN, CI+",
+    "DVB-T/T2/C/S/S2",
+    "1110 x 689 x 320"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000064662": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 18172,
+     "basePrice": 25299,
+     "monthly": 567
+    }
+   ],
+   "id": "1000064662",
+   "category": "tv",
+   "brand": "Tesla",
+   "model": "Q55E655GUS",
+   "image": "https://www.a1.mk/documents/20126/4130073/QxxE655GUS-front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/tesla-q55e655gus/1000064662",
+   "specs": [
+    "Google Smart TV",
+    "9.3 kg",
+    "3 HDMI, 2 USB, LAN, CI+",
+    "DVB-T/T2/C/S/S2",
+    "1225 x 753 x 320"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000064663": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 26392,
+     "basePrice": 32999,
+     "monthly": 738
+    }
+   ],
+   "id": "1000064663",
+   "category": "tv",
+   "brand": "Tesla",
+   "model": "Q65E655GUS",
+   "image": "https://www.a1.mk/documents/20126/4130073/QxxE655GUS-front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/tesla-q65e655gus/1000064663",
+   "specs": [
+    "Google Smart TV",
+    "12.6 kg",
+    "3 HDMI, 2 USB, LAN, CI+",
+    "DVB-T/T2/C/S/S2",
+    "1444 x 876 x 320"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066922": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 24952,
+     "basePrice": 32399,
+     "monthly": 708
+    }
+   ],
+   "id": "1000066922",
+   "category": "tv",
+   "brand": "Samsung",
+   "model": "UE50M70HAUXXH Mini LED",
+   "image": "https://www.a1.mk/documents/20126/4301093/UAxxM70_Front_Black.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/samsung-ue50m70hauxxh-mini-led/1000066922",
+   "specs": [
+    "Tizen",
+    "8,8 kg",
+    "DVB-T2CS2",
+    "4k Mini LED",
+    "1110.8 x 696 x 199 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066923": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 29272,
+     "basePrice": 36499,
+     "monthly": 798
+    }
+   ],
+   "id": "1000066923",
+   "category": "tv",
+   "brand": "Samsung",
+   "model": "UE55M80HAUXXH Mini LED",
+   "image": "https://www.a1.mk/documents/20126/4301114/UAxxM80_Front_Black.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/samsung-ue55m80hauxxh-mini-led/1000066923",
+   "specs": [
+    "Tizen",
+    "10,3 kg",
+    "DVB-T2CS2",
+    "4k Mini LED",
+    "1224.6 x 760 x 199 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066920": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 21156,
+     "basePrice": 27999,
+     "monthly": 629
+    }
+   ],
+   "id": "1000066920",
+   "category": "tv",
+   "brand": "Samsung",
+   "model": "UE55U7022HUXXH",
+   "image": "https://www.a1.mk/documents/20126/3839245/UE75U7022FKXXH-Front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/samsung-ue55u7022huxxh/1000066920",
+   "specs": [
+    "3 HDMI, 1 USB, LAN, CI+",
+    "10,2 kg",
+    "Wi-fi, BT, 3 HDMI, 1 USB, LAN",
+    "Smart TV",
+    "1224.6 x 760 x 199 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066924": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 41272,
+     "basePrice": 48199,
+     "monthly": 1048
+    }
+   ],
+   "id": "1000066924",
+   "category": "tv",
+   "brand": "Samsung",
+   "model": "UE65M80HAUXXH Mini LED",
+   "image": "https://www.a1.mk/documents/20126/4301114/UAxxM80_Front_Black.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/samsung-ue65m80hauxxh-mini-led/1000066924",
+   "specs": [
+    "Tizen",
+    "14,3 kg",
+    "DVB-T2CS2",
+    "4k Mini LED",
+    "1441.1 x 882.2 x 222 mm"
+   ],
+   "badge": "продолжена гаранција 2+3 години",
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066848": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 32152,
+     "basePrice": 39599,
+     "monthly": 858
+    }
+   ],
+   "id": "1000066848",
+   "category": "tv",
+   "brand": "Samsung",
+   "model": "UE65U7022HUXXH",
+   "image": "https://www.a1.mk/documents/20126/3839245/UE75U7022FKXXH-Front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/samsung-ue65u7022huxxh/1000066848",
+   "specs": [
+    "Tizen OS, DVB-T2CS2",
+    "14,4 kg",
+    "4K LED",
+    "Wi-fi, BT, 3 HDMI, 1 USB, LAN",
+    "1444.1 x 882.2 x 222 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066925": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 56632,
+     "basePrice": 62899,
+     "monthly": 1368
+    }
+   ],
+   "id": "1000066925",
+   "category": "tv",
+   "brand": "Samsung",
+   "model": "UE75M80HAUXXH Mini LED",
+   "image": "https://www.a1.mk/documents/20126/4301114/UAxxM80_Front_Black.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/samsung-ue75m80hauxxh-mini-led/1000066925",
+   "specs": [
+    "Tizen",
+    "22,5 kg",
+    "DVB-T2CS2",
+    "4k Mini LED",
+    "1668.1 x 1007.9 x 280 mm"
+   ],
+   "badge": "продолжена гаранција 2+3 години",
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066849": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 41752,
+     "basePrice": 48799,
+     "monthly": 1058
+    }
+   ],
+   "id": "1000066849",
+   "category": "tv",
+   "brand": "Samsung",
+   "model": "UE75U7022HUXXH",
+   "image": "https://www.a1.mk/documents/20126/3839245/UE75U7022FKXXH-Front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/samsung-ue75u7022huxxh/1000066849",
+   "specs": [
+    "4K LED",
+    "22,0 kg",
+    "Smart TV",
+    "Wi-Fi, BT, eARC",
+    "1668.1 x 1007.9 x 280 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066921": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 75352,
+     "basePrice": 80199,
+     "monthly": 1758
+    }
+   ],
+   "id": "1000066921",
+   "category": "tv",
+   "brand": "Samsung",
+   "model": "UE85U7022HUXXH",
+   "image": "https://www.a1.mk/documents/20126/3839245/UE75U7022FKXXH-Front.png",
+   "url": "https://www.a1.mk/webshop/mk/tv/shop/samsung-ue85u7022huxxh/1000066921",
+   "specs": [
+    "DVB-T2C",
+    "28,9 kg",
+    "Smart TV",
+    "Tizen",
+    "1889.9 x 1132.8 x 326 mm"
+   ],
+   "badge": null,
+   "installments": 48,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000047808": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 36576,
+     "basePrice": 45499,
+     "monthly": 1899
+    }
+   ],
+   "id": "1000047808",
+   "category": "fridge",
+   "brand": "Samsung",
+   "model": "RB34C652EB1/EK",
+   "image": "https://www.a1.mk/documents/20126/3296961/RB34C652EB1-EF-Front-Black.png",
+   "url": "https://www.a1.mk/webshop/mk/belatehnika/frizideri/shop/samsung-rb34c652eb1-ek/1000047808",
+   "specs": [
+    "Енергетска класа E",
+    "1853 x 595 x 595mm",
+    "Бруто литри 341Л",
+    "254 kWh/year/ 35 dBA",
+    "No frost/Mono cooling"
+   ],
+   "badge": "продолжена гаранција 2+3 години",
+   "installments": 24,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000047807": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 29376,
+     "basePrice": 38299,
+     "monthly": 1599
+    }
+   ],
+   "id": "1000047807",
+   "category": "fridge",
+   "brand": "Samsung",
+   "model": "RB34C672EWW/EK",
+   "image": "https://www.a1.mk/documents/20126/4120045/RB34C672EWW-EF_Front.png",
+   "url": "https://www.a1.mk/webshop/mk/belatehnika/frizideri/shop/samsung-rb34c672eww-ek/1000047807",
+   "specs": [
+    "Енергетска класа Е",
+    "В1853xШ595xД595",
+    "Бруто литри 344Л",
+    "254 kWh/year/ 35 dBA",
+    "No frost/Mono cooling"
+   ],
+   "badge": "продолжена гаранција 2+3 години",
+   "installments": 24,
+   "availableOnline": true,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066332": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 10136,
+     "basePrice": 17999,
+     "monthly": 798
+    }
+   ],
+   "id": "1000066332",
+   "category": "fridge",
+   "brand": "Gorenje",
+   "model": "FH19EAW",
+   "image": "https://www.a1.mk/documents/20126/3808264/FH19EAW.png",
+   "url": "https://www.a1.mk/webshop/mk/belatehnika/frizideri/shop/gorenje-fh19eaw/1000066332",
+   "specs": [],
+   "badge": "продолжена гаранција 2+3 години",
+   "installments": 24,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066333": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 13256,
+     "basePrice": 20999,
+     "monthly": 928
+    }
+   ],
+   "id": "1000066333",
+   "category": "fridge",
+   "brand": "Gorenje",
+   "model": "FH30EAW",
+   "image": "https://www.a1.mk/documents/20126/3808264/FH30EAW-1.png",
+   "url": "https://www.a1.mk/webshop/mk/belatehnika/frizideri/shop/gorenje-fh30eaw/1000066333",
+   "specs": [],
+   "badge": "продолжена гаранција 2+3 години",
+   "installments": 24,
+   "availableOnline": true,
+   "lastSeen": "2026-11-15"
+  },
+  "1000057613": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 19496,
+     "basePrice": 31999,
+     "monthly": 1396
+    }
+   ],
+   "id": "1000057613",
+   "category": "fridge",
+   "brand": "Gorenje",
+   "model": "N619EAXL4",
+   "image": "https://www.a1.mk/documents/20126/3808264/N619EAXL4.png",
+   "url": "https://www.a1.mk/webshop/mk/belatehnika/frizideri/shop/gorenje-n619eaxl4/1000057613",
+   "specs": [
+    "Енергетска класа А++",
+    "В1860xШ595xД590 мм",
+    "Бруто литри 323Л",
+    "225 kWh/year/ 39 dBA",
+    "NoFrost Plus/MultiFlow"
+   ],
+   "badge": "продолжена гаранција 2+3 години",
+   "installments": 24,
+   "availableOnline": true,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066962": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 27896,
+     "basePrice": 39999,
+     "monthly": 1746
+    }
+   ],
+   "id": "1000066962",
+   "category": "fridge",
+   "brand": "Gorenje",
+   "model": "NRK619CABXL4",
+   "image": "https://www.a1.mk/documents/20126/3808264/Gorenje-NRK619CABXL4-Black.png",
+   "url": "https://www.a1.mk/webshop/mk/belatehnika/frizideri/shop/gorenje-nrk619cabxl4/1000066962",
+   "specs": [
+    "Енергетска класа C (нова)",
+    "В1860xШ595xД590 мм",
+    "Нето литри 304Л",
+    "155 kWh/year/ 35 dBA",
+    "NoFrost Plus/MultiFlow"
+   ],
+   "badge": "продолжена гаранција 2+3 години",
+   "installments": 24,
+   "availableOnline": true,
+   "lastSeen": "2026-11-15"
+  },
+  "1000057614": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 21656,
+     "basePrice": 33999,
+     "monthly": 1486
+    }
+   ],
+   "id": "1000057614",
+   "category": "fridge",
+   "brand": "Gorenje",
+   "model": "NRK619EAXL4WD",
+   "image": "https://www.a1.mk/documents/20126/3808264/NRK619EAXL4WD-1.png",
+   "url": "https://www.a1.mk/webshop/mk/belatehnika/frizideri/shop/gorenje-nrk619eaxl4wd/1000057614",
+   "specs": [
+    "Енергетска класа А++",
+    "В1860xШ595xД590 мм",
+    "Бруто литри 323Л",
+    "225 kWh/year/ 39 dBA",
+    "NoFrost Plus/MultiFlow"
+   ],
+   "badge": "продолжена гаранција 2+3 години",
+   "installments": 24,
+   "availableOnline": true,
+   "lastSeen": "2026-11-15"
+  },
+  "1000062208": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 42296,
+     "basePrice": 52999,
+     "monthly": 2346
+    }
+   ],
+   "id": "1000062208",
+   "category": "fridge",
+   "brand": "Gorenje",
+   "model": "NRS917E41BXWD",
+   "image": "https://www.a1.mk/documents/20126/3808264/NRS917E41BXWD-1.png",
+   "url": "https://www.a1.mk/webshop/mk/belatehnika/frizideri/shop/gorenje-nrs917e41bxwd/1000062208",
+   "specs": [
+    "Енергетска класа E (Нова )",
+    "В1786 x Ш911 x Д615мм",
+    "Вкупен капацитет 541 L",
+    "317 kWh годишно/39dB",
+    "NoFrost Plus/MultiFlow"
+   ],
+   "badge": "продолжена гаранција 2+3 години",
+   "installments": 24,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000062207": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 34856,
+     "basePrice": 45999,
+     "monthly": 2036
+    }
+   ],
+   "id": "1000062207",
+   "category": "fridge",
+   "brand": "Gorenje",
+   "model": "NRS917E41X",
+   "image": "https://www.a1.mk/documents/20126/4282275/Gorenje-NRS917E41X-1.png",
+   "url": "https://www.a1.mk/webshop/mk/belatehnika/frizideri/shop/gorenje-nrs917e41x/1000062207",
+   "specs": [
+    "Енергетска класа E (нова)",
+    "В1786 x Ш915 x Д615мм",
+    "Нето литри 544Л",
+    "317 kWh/year/ 39 dBA",
+    "NoFrost Plus/MultiFlow"
+   ],
+   "badge": "продолжена гаранција 2+3 години",
+   "installments": 24,
+   "availableOnline": true,
+   "lastSeen": "2026-11-15"
+  },
+  "1000061749": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 22176,
+     "basePrice": 29999,
+     "monthly": 1299
+    }
+   ],
+   "id": "1000061749",
+   "category": "fridge",
+   "brand": "Samsung",
+   "model": "RB34C600ES9/EK",
+   "image": "https://www.a1.mk/documents/20126/4011724/RB34C600ES9-EK_Front_Silver.png",
+   "url": "https://www.a1.mk/webshop/mk/belatehnika/frizideri/shop/samsung-rb34c600es9-ek/1000061749",
+   "specs": [
+    "Енергетска класа E",
+    "В1853xШ595xД658",
+    "Бруто литри 344Л",
+    "254 kWh/year/ 35 dBA",
+    "No frost/Mono cooling"
+   ],
+   "badge": "продолжена гаранција 2+3 години",
+   "installments": 24,
+   "availableOnline": true,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066893": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 13496,
+     "basePrice": 25499,
+     "monthly": 1146
+    }
+   ],
+   "id": "1000066893",
+   "category": "fridge",
+   "brand": "Tesla",
+   "model": "RC3201FHE",
+   "image": "https://www.a1.mk/documents/20126/4301152/RC3201FHE-1.png",
+   "url": "https://www.a1.mk/webshop/mk/belatehnika/frizideri/shop/tesla-rc3201fhe/1000066893",
+   "specs": [
+    "Енергетска класа E",
+    "В1860 x Ш600 x Д600мм",
+    "Нето литри 293Л",
+    "233 kWh годишно/40dB",
+    "No frost"
+   ],
+   "badge": null,
+   "installments": 24,
+   "availableOnline": true,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066892": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 15176,
+     "basePrice": 26999,
+     "monthly": 1216
+    }
+   ],
+   "id": "1000066892",
+   "category": "fridge",
+   "brand": "Tesla",
+   "model": "RC3201FHXE",
+   "image": "https://www.a1.mk/documents/20126/4301188/RC3201FHXE-1.png",
+   "url": "https://www.a1.mk/webshop/mk/belatehnika/frizideri/shop/tesla-rc3201fhxe/1000066892",
+   "specs": [
+    "Енергетска класа E",
+    "В1850 x Ш600 x Д600мм",
+    "Нето литри 293Л",
+    "233 kWh годишно/39dB",
+    "No frost"
+   ],
+   "badge": null,
+   "installments": 24,
+   "availableOnline": true,
+   "lastSeen": "2026-11-15"
+  },
+  "1000062180": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 7656,
+     "basePrice": 15499,
+     "monthly": 694
+    }
+   ],
+   "id": "1000062180",
+   "category": "fridge",
+   "brand": "Tesla",
+   "model": "RD2101EH",
+   "image": "https://www.a1.mk/documents/20126/4016581/RD2101H-1.png",
+   "url": "https://www.a1.mk/webshop/mk/belatehnika/frizideri/shop/tesla-rd2101eh/1000062180",
+   "specs": [
+    "Енергетска класа E",
+    "В1426 x Ш545 x Д550mm",
+    "Нето литри 206Л",
+    "172 kWh годишно/40dB",
+    "Рачно одмрзнување"
+   ],
+   "badge": null,
+   "installments": 24,
+   "availableOnline": true,
+   "lastSeen": "2026-11-15"
+  },
+  "1000065942": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 8216,
+     "basePrice": 15999,
+     "monthly": 718
+    }
+   ],
+   "id": "1000065942",
+   "category": "fridge",
+   "brand": "Tesla",
+   "model": "RD2101HSE",
+   "image": "https://www.a1.mk/documents/20126/4220262/RD2101HSE-1.png",
+   "url": "https://www.a1.mk/webshop/mk/belatehnika/frizideri/shop/tesla-rd2101hse/1000065942",
+   "specs": [
+    "Енергетска класа E",
+    "В1420 x Ш545 x Д555mm",
+    "Нето литри 206Л",
+    "172 kWh годишно/40dB",
+    "Рачно одмрзнување"
+   ],
+   "badge": null,
+   "installments": 24,
+   "availableOnline": true,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066331": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 8456,
+     "basePrice": 16499,
+     "monthly": 728
+    }
+   ],
+   "id": "1000066331",
+   "category": "fridge",
+   "brand": "Gorenje",
+   "model": "RF4142PW4",
+   "image": "https://www.a1.mk/documents/20126/3808264/RF4142PW4-1.png",
+   "url": "https://www.a1.mk/webshop/mk/belatehnika/frizideri/shop/gorenje-rf4142pw4/1000066331",
+   "specs": [
+    "Енергетска класа E",
+    "В143.6xШ550xД542 мм",
+    "Нето литри 206Л",
+    "172 kWh годишно/40dB",
+    "Рачно одмрзнување"
+   ],
+   "badge": "продолжена гаранција 2+3 години",
+   "installments": 24,
+   "availableOnline": true,
+   "lastSeen": "2026-11-15"
+  },
+  "1000066088": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 8216,
+     "basePrice": 15999,
+     "monthly": 718
+    }
+   ],
+   "id": "1000066088",
+   "category": "fridge",
+   "brand": "Tesla",
+   "model": "RH2000HE",
+   "image": "https://www.a1.mk/documents/20126/4302468/RH2000HE-1.png",
+   "url": "https://www.a1.mk/webshop/mk/belatehnika/frizideri/shop/tesla-rh2000he/1000066088",
+   "specs": [],
+   "badge": null,
+   "installments": 24,
+   "availableOnline": false,
+   "lastSeen": "2026-11-15"
+  },
+  "1000068168": {
+   "history": [
+    {
+     "date": "2026-11-15",
+     "a1Price": 48456,
+     "basePrice": 57999,
+     "monthly": 2603
+    }
+   ],
+   "id": "1000068168",
+   "category": "fridge",
+   "brand": "Samsung",
+   "model": "RS57DG410EM9EO",
+   "image": "https://www.a1.mk/documents/20126/3248014/Samsung-Frizider-RS57DG410EM9EO1.png",
+   "url": "https://www.a1.mk/webshop/mk/belatehnika/frizideri/shop/samsung-rs57dg410em9eo/1000068168",
+   "specs": [
+    "Енергетска класа E",
+    "В1780 x Ш912 x Д654 мм",
+    "Нето литри 578Л",
+    "330 kWh/year/ 37 dBA",
+    "No frost/Mono cooling"
+   ],
+   "badge": "продолжена гаранција 2+3 години",
+   "installments": 24,
+   "availableOnline": true,
+   "lastSeen": "2026-11-15"
+  }
+ },
+ "updated": "2026-11-15"
+}

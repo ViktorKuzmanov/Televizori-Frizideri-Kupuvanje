@@ -1,0 +1,166 @@
+{
+ "_info": "Рачни забелешки по производ (клуч = A1 productid). Скриптата не ги менува. airplay/cast: true | false | null (непотврдено).",
+ "budgets": {
+  "tv": {
+   "min": 10000,
+   "max": 23000
+  },
+  "fridge": {
+   "min": 0,
+   "max": 27000
+  }
+ },
+ "tv": {
+  "1000058916": {
+   "os": "Titan OS",
+   "panel": "QLED",
+   "airplay": true,
+   "cast": null,
+   "note": "QLED, HDR10+, HDMI 2.1. Најдобра слика за парите во буџетот.",
+   "pick": 1
+  },
+  "1000064662": {
+   "os": "Google TV",
+   "panel": "QLED",
+   "airplay": false,
+   "cast": true,
+   "note": "Најевтин 55\" QLED. Google Cast е вграден, нема AirPlay.",
+   "pick": 2
+  },
+  "1000066920": {
+   "os": "Tizen",
+   "panel": "LED",
+   "airplay": true,
+   "cast": false,
+   "note": "Samsung: AirPlay 2 работи сигурно, нема Google Cast.",
+   "pick": 3
+  },
+  "1000067015": {
+   "os": "VIDAA",
+   "panel": "LED",
+   "airplay": true,
+   "cast": null,
+   "note": "AirPlay 2 преку VIDAA."
+  },
+  "1000067014": {
+   "os": "VIDAA",
+   "panel": "LED",
+   "airplay": true,
+   "cast": null
+  },
+  "1000066330": {
+   "os": "VIDAA",
+   "panel": "LED",
+   "airplay": true,
+   "cast": null
+  },
+  "1000058471": {
+   "os": "Titan OS",
+   "panel": "LED",
+   "airplay": true,
+   "cast": null
+  },
+  "1000060540": {
+   "os": "Titan OS",
+   "panel": "LED",
+   "airplay": true,
+   "cast": null,
+   "note": "Нема ТВ тјунер. Потребен е A1 ТВ приемник."
+  },
+  "1000064661": {
+   "os": "Google TV",
+   "panel": "QLED",
+   "airplay": false,
+   "cast": true
+  },
+  "1000057606": {
+   "os": "Tizen",
+   "panel": "LED",
+   "airplay": true,
+   "cast": false
+  },
+  "1000064659": {
+   "os": "Google TV",
+   "panel": "LED HD",
+   "airplay": false,
+   "cast": true,
+   "note": "Само HD (не 4K), 32\"."
+  },
+  "1000067016": {
+   "os": "VIDAA",
+   "panel": "QLED",
+   "airplay": true,
+   "cast": null,
+   "note": "Малку над буџетот, подобра слика (QLED)."
+  },
+  "1000066922": {
+   "os": "Tizen",
+   "panel": "Mini LED",
+   "airplay": true,
+   "cast": false,
+   "note": "Малку над буџетот. Mini LED дава подобар контраст."
+  }
+ },
+ "fridge": {
+  "1000066332": {
+   "type": "Замрзнувач (сандак)",
+   "note": "Ова е замрзнувач, не фрижидер."
+  },
+  "1000066333": {
+   "type": "Замрзнувач (сандак)",
+   "note": "Ова е замрзнувач, не фрижидер."
+  },
+  "1000066088": {
+   "type": "Замрзнувач",
+   "note": "Ова е замрзнувач, не фрижидер."
+  },
+  "1000062180": {
+   "type": "Мал фрижидер (142 cm)"
+  },
+  "1000065942": {
+   "type": "Мал фрижидер (142 cm)"
+  },
+  "1000066331": {
+   "type": "Мал фрижидер (144 cm)"
+  },
+  "1000057613": {
+   "type": "Комбиниран (186 cm)",
+   "note": "NoFrost Plus, 323 L, тивок. Најдобар однос цена/квалитет во буџетот.",
+   "pick": 1
+  },
+  "1000066962": {
+   "type": "Комбиниран (186 cm)",
+   "note": "Најштедлив: 155 kWh годишно (класа C по новата скала). Само ~900 ден. над буџетот.",
+   "pick": 2
+  },
+  "1000061749": {
+   "type": "Комбиниран (185 cm)",
+   "note": "Samsung, многу тивок (35 dB), 344 L. Троши повеќе струја.",
+   "pick": 3
+  },
+  "1000057614": {
+   "type": "Комбиниран (186 cm)"
+  },
+  "1000066893": {
+   "type": "Комбиниран (186 cm)"
+  },
+  "1000066892": {
+   "type": "Комбиниран (185 cm)"
+  },
+  "1000047808": {
+   "type": "Комбиниран (185 cm)"
+  },
+  "1000047807": {
+   "type": "Комбиниран (185 cm)"
+  },
+  "1000062208": {
+   "type": "Side-by-Side (2 врати)"
+  },
+  "1000062207": {
+   "type": "Side-by-Side (2 врати)"
+  },
+  "1000068168": {
+   "type": "Side-by-Side (2 врати)"
+  }
+ }
+}
