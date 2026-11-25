@@ -70,6 +70,7 @@ table.st a{color:inherit;font-weight:600}
 <nav>
  <button data-tab="tv" class="on">📺 Телевизори</button>
  <button data-tab="fridge">🧊 Фрижидери</button>
+ <button data-tab="ups">⚠️ Поскапени</button>
  <button data-tab="guide">📖 Што да гледаме?</button>
 </nav>
 
@@ -78,6 +79,8 @@ table.st a{color:inherit;font-weight:600}
   <label>Цени од <select id="dA"></select></label>
   <label>до <select id="dB"></select></label>
   <label class="chk"><input type="checkbox" id="inBudget" checked> <span>само во буџет: <span id="budgetTxt"></span></span></label>
+  <label class="chk"><input type="checkbox" id="onlyWatch"> <span>👀 само моите производи</span></label>
+  <label class="chk"><input type="checkbox" id="a1Tariff" checked> <span>A1 цена со тарифа</span></label>
   <span id="storeBoxes"></span>
   <label>Подреди: <select id="sort">
    <option value="pick">Препорака</option><option value="price">Цена ↑</option><option value="drop">Најголем попуст</option><option value="multi">Во најмногу продавници</option>
@@ -88,6 +91,8 @@ table.st a{color:inherit;font-weight:600}
  <div class="grid" id="grid"></div>
  <button class="more hide" id="more">Прикажи повеќе</button>
 </div>
+
+<div id="upsView" class="hide"></div>
 
 <div id="guideView" class="hide">
  <div class="guide">
@@ -115,7 +120,7 @@ table.st a{color:inherit;font-weight:600}
  </ul>
  <h2>💰 Цените</h2>
  <ul>
-  <li>Секоја продавница ја покажува својата најниска цена. <b>A1</b>: цена во онлајн продавницата. <b>Нептун</b>: HaPPy цена. <b>Сетек</b>: Клуб цена (со Сетек клуб картичка). <b>Техномаркет</b>: SMART цена (со SMART картичка). Прецртаната цена е редовната.</li>
+  <li>Секоја продавница ја покажува својата најниска цена. <b>A1</b>: прикажани се две цени. Пониската изгледа дека важи само со A1 тарифа и договор од 24 месеци; „без тарифа“ е основната цена. На пр. за Philips 55PUS7810 на 25.11, при еднократно плаќање без тарифа, A1 покажува 25.999 ден., а не 18.756. Исклучете „A1 цена со тарифа“ за да споредите без тарифа. Прашајте во A1 која цена и кој попуст важат за вас. <b>Нептун</b>: HaPPy цена. <b>Сетек</b>: Клуб цена (со Сетек клуб картичка). <b>Техномаркет</b>: SMART цена (со SMART картичка). Прецртаната цена е редовната.</li>
   <li>Зелената линија до продавницата значи <b>најевтино</b> за тој модел.</li>
   <li>Секоја цена има <b>датум</b> кога е земена. Горе изберете два датуми (на пр. денес и Black Friday). Покрај секоја продавница ќе пишува колку поевтинило (▼) или поскапело (▲).</li>
   <li>Ист модел може да има различна ознака (на пр. „/EK“ на крајот). Сепак проверете го точниот модел на линкот.</li>
@@ -133,7 +138,32 @@ const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&g
 let DB,NOTES,tab="tv",shown=60;
 const STORES=["a1","neptun","setec","tehnomarket"];
 
-function priceOn(p,date){let h=null;for(const x of p.history) if(x.date<=date) h=x;return h}
+function priceOn(p,date){
+  let h=null;for(const x of p.history) if(x.date<=date) h=x;
+  if(h&&p.store==="a1"&&!document.getElementById("a1Tariff").checked&&h.regular) return {...h,price:h.regular,regular:null};
+  return h;
+}
+const TINY=10; // разлика до 10 ден. е само заокружување (на пр. 22.995 → 22.999)
+function renderUps(dA,dB){
+  const el=document.getElementById("upsView");
+  const sel=`<div class="bar"><label>Од <select onchange="document.getElementById('dA').value=this.value;render()">${document.getElementById("dA").innerHTML}</select></label><label>до <select onchange="document.getElementById('dB').value=this.value;render()">${document.getElementById("dB").innerHTML}</select></label></div>`;
+  const pairs=Object.values(DB.products).map(p=>({p,a:priceOn(p,dA),c:priceOn(p,dB)}))
+    .filter(r=>dA<dB&&r.a&&r.c&&!r.a.unverified&&r.p.lastSeen>=dB);
+  const ups=pairs.filter(r=>r.c.price-r.a.price>TINY);
+  const fake=pairs.filter(r=>r.a.regular&&r.c.regular&&r.c.regular>r.a.regular);
+  const pct=r=>(r.c.price-r.a.price)/r.a.price*100;
+  ups.sort((x,y)=>(y.p.store==="a1")-(x.p.store==="a1")||pct(y)-pct(x));
+  const row=(r,reg)=>`<tr class="${r.p.store==="a1"?"a1":""}"><td>${r.p.category==="tv"?"📺":"🧊"} <a href="${esc(r.p.url)}" target="_blank" rel="noopener">${esc(r.p.title)}</a><div class="small">${esc(NOTES.stores[r.p.store].name)}</div></td>
+    <td class="pr"><div class="small">${fmt(r.a.price)} →</div><b>${fmt(r.c.price)}</b><div class="${r.c.price-r.a.price>TINY?"up":r.c.price<r.a.price?"down":"small"}">${r.c.price>r.a.price?"▲ +":r.c.price<r.a.price?"▼ −":""}${r.c.price===r.a.price?"иста цена":fmt(Math.abs(r.c.price-r.a.price))+" ("+Math.abs(pct(r)).toFixed(0)+"%)"}</div>
+    ${reg?`<div class="small">„редовна“: ${fmt(r.a.regular)} → <b>${fmt(r.c.regular)}</b></div>`:""}</td></tr>`;
+  el.innerHTML=sel+(dA>=dB?`<p>Изберете два различни датуми.</p>`:`
+    <h2>⚠️ Поскапени: ${ups.length}</h2><div class="mut">${fmtD(dA)} → ${fmtD(dB)}, сите продавници, без филтер за буџет. A1 е прво.</div>
+    <div class="guide"><table class="st">${ups.map(r=>row(r,false)).join("")||"<tr><td>Нема.</td></tr>"}</table></div>
+    <h2>🎭 Покачена „редовна“ цена: ${fake.length}</h2><div class="mut">Прецртаната цена пораснала, па попустот изгледа поголем.</div>
+    <div class="guide"><table class="st">${fake.map(r=>row(r,true)).join("")||"<tr><td>Нема.</td></tr>"}</table></div>
+    <p class="mut">Старите цени од Техномаркет на 15.11 што се разликуваат од новите не се споредуваат: тогаш скриптата имала грешка и тие цени не може да се проверат.</p>`);
+  const [x,y]=el.querySelectorAll("select"); x.value=dA; y.value=dB;
+}
 function tag(v,label){
   if(v===true) return `<span class="tag ok">✓ ${label}</span>`;
   if(v===false) return `<span class="tag no">✗ ${label}</span>`;
@@ -147,9 +177,11 @@ function groups(){
 function render(){
   const isGuide=tab==="guide";
   document.getElementById("guideView").classList.toggle("hide",!isGuide);
-  document.getElementById("listView").classList.toggle("hide",isGuide);
+  document.getElementById("upsView").classList.toggle("hide",tab!=="ups");
+  document.getElementById("listView").classList.toggle("hide",isGuide||tab==="ups");
   if(isGuide) return;
   const dA=document.getElementById("dA").value, dB=document.getElementById("dB").value;
+  if(tab==="ups") return renderUps(dA,dB);
   const b=NOTES.budgets[tab], inB=document.getElementById("inBudget").checked;
   const q=document.getElementById("q").value.trim().toLowerCase();
   const on=new Set(STORES.filter(s=>document.getElementById("st_"+s).checked));
@@ -159,7 +191,7 @@ function render(){
   let cards=Object.entries(groups()).map(([code,items])=>{
     const rows=items.filter(p=>on.has(p.store)).map(p=>{
       const a=priceOn(p,dA), c=priceOn(p,dB);
-      return c&&p.lastSeen>=dB?{p,a,c,diff:a?c.price-a.price:null}:null;
+      return c&&p.lastSeen>=dB?{p,a,c,diff:a&&!a.unverified?c.price-a.price:null}:null;
     }).filter(Boolean).sort((x,y)=>x.c.price-y.c.price);
     if(!rows.length) return null;
     const n=notes[code]||{}, main=items.find(p=>p.store==="a1")||rows[0].p;
@@ -169,13 +201,14 @@ function render(){
     return {code,items,rows,n,d,main,best,drop};
   }).filter(Boolean);
 
-  if(inB) cards=cards.filter(c=>(c.best>=b.min&&c.best<=b.max)||c.n.pick);
+  if(inB) cards=cards.filter(c=>(c.best>=b.min&&c.best<=b.max)||c.n.pick||c.n.watch);
+  if(document.getElementById("onlyWatch").checked) cards=cards.filter(c=>c.n.watch||c.n.pick);
   if(q) cards=cards.filter(c=>c.items.some(p=>(p.title+" "+p.brand+" "+c.code).toLowerCase().includes(q)));
   const s=document.getElementById("sort").value;
   cards.sort((x,y)=> s==="price"? x.best-y.best : s==="drop"? x.drop-y.drop : s==="multi"? y.rows.length-x.rows.length||x.best-y.best
     : (x.n.pick||99)-(y.n.pick||99) || (y.d.panel&&/QLED|Mini/.test(y.d.panel)?1:0)-(x.d.panel&&/QLED|Mini/.test(x.d.panel)?1:0) || y.rows.length-x.rows.length || x.best-y.best);
 
-  const allRows=cards.flatMap(c=>c.rows), drops=allRows.filter(r=>r.diff<0).length, ups=allRows.filter(r=>r.diff>0).length;
+  const allRows=cards.flatMap(c=>c.rows), drops=allRows.filter(r=>r.diff<-TINY).length, ups=allRows.filter(r=>r.diff>TINY).length;
   document.getElementById("summary").innerHTML=`Прикажани <b>${cards.length}</b> модели. `+(dA===dB
     ? `Цени на ден <b>${fmtD(dB)}</b>.`
     : `Споредба <b>${fmtD(dA)}</b> → <b>${fmtD(dB)}</b>: поевтинети <b>${drops}</b>, поскапени <b>${ups}</b>.`);
@@ -188,14 +221,15 @@ function render(){
       : (d.type?`<span class="tag">${esc(d.type)}</span>`:"");
     const rows=c.rows.map((r,i)=>{
       const st=NOTES.stores[r.p.store]||{name:r.p.store};
-      const ch = dA===dB||r.diff==null ? "" : r.diff<0 ? `<div class="down">▼ ${fmt(-r.diff)} (−${(-r.diff/r.a.price*100).toFixed(0)}%)</div>`
-        : r.diff>0 ? `<div class="up">▲ ${fmt(r.diff)}</div>` : `<div class="small">иста цена</div>`;
+      const ch = dA===dB ? "" : r.a&&r.a.unverified ? `<div class="small">стара цена непроверена</div>` : r.diff==null ? "" : r.diff<-TINY ? `<div class="down">▼ ${fmt(-r.diff)} (−${(-r.diff/r.a.price*100).toFixed(0)}%)</div>`
+        : r.diff>TINY ? `<div class="up">▲ ${fmt(r.diff)}</div>` : `<div class="small">иста цена</div>`;
       return `<tr class="${r.p.store==="a1"?"a1":""} ${i===0?"cheap":""}">
         <td><a href="${esc(r.p.url)}" target="_blank" rel="noopener">${st.name}${r.p.store==="a1"?" ★":""}</a>
-          <div class="small">${esc(r.p.priceName||"")}</div>${i===0&&c.rows.length>1?`<div class="small down">најевтино</div>`:""}</td>
+          <div class="small">${r.p.store!=="a1"?esc(r.p.priceName||""):document.getElementById("a1Tariff").checked?`со A1 тарифа · без тарифа: <b>${fmt(priceOn(r.p,dB).regular)}</b>`:"без тарифа"}</div>${i===0&&c.rows.length>1?`<div class="small down">најевтино</div>`:""}</td>
         <td class="pr"><b>${fmt(r.c.price)}</b>${r.c.regular&&r.c.regular>r.c.price?`<div class="small"><s>${fmt(r.c.regular)}</s></div>`:""}${ch}</td></tr>`}).join("");
     return `<div class="card${c.n.pick?" pick":""}">
       ${c.n.pick?`<div><span class="badge">⭐ Препорака #${c.n.pick}</span></div>`:""}
+      ${c.n.watch?`<div><span class="badge">👀 Мој производ</span></div>`:""}
       ${img(c)}
       <div class="name">${esc(c.main.brand)} ${esc(c.code)}</div>
       <div class="small">${esc(c.main.title)}</div>
@@ -214,7 +248,7 @@ Promise.all([fetch("data/prices.json").then(r=>r.json()),fetch("data/notes.json"
   const A=document.getElementById("dA"),B=document.getElementById("dB");
   A.innerHTML=opts;B.innerHTML=opts;A.value=d.snapshots[0].date;B.value=d.snapshots.at(-1).date;
   document.getElementById("meta").innerHTML=`Последно ажурирање на цените: <b>${fmtD(d.updated)}</b>. Зачувани датуми: ${d.snapshots.map(s=>fmtD(s.date)+(s.label?` (${esc(s.label)})`:"")).join(", ")}`;
-  ["dA","dB","inBudget","sort",...STORES.map(s=>"st_"+s)].forEach(id=>document.getElementById(id).onchange=()=>{shown=60;render()});
+  ["dA","dB","inBudget","onlyWatch","a1Tariff","sort",...STORES.map(s=>"st_"+s)].forEach(id=>document.getElementById(id).onchange=()=>{shown=60;render()});
   document.getElementById("q").oninput=()=>{shown=60;render()};
   document.getElementById("more").onclick=()=>{shown+=60;render()};
   render();

@@ -54,12 +54,15 @@ def model_code(title, brand=""):
         if w:
             t = t.replace(w.upper(), " ")
     t = re.sub(r"\b(\d{2})\s*\"?\s+([A-Z]{1,4}\d[A-Z0-9]*)\b", r"\1\2", t)  # "85 P8L" -> "85P8L"
+    t = re.sub(r"\b(\d{2})\s*\"?\s+(NANO)\s+(\d{2}[A-Z0-9]+)\b", r"\1\2\3", t)  # "55 NANO 81A3A" -> "55NANO81A3A"
+    t = re.sub(r"\b(\d{2})\s*\"?\s+(8MB6C)\b", r"\1\2", t)                      # LG "55 8MB6C" -> "558MB6C"
+    t = re.sub(r"\b(RDS[OA])\s+(\d{3})\s+(K40)\s?([A-Z]{2})\b", r"\1\2\3\4", t)      # Beko "RDSO 206 K40SN"
     toks = re.findall(r"[A-Z0-9][A-Z0-9/\-\.]*", t)
     for i, tok in enumerate(toks):
         tok = tok.split("/")[0].replace("-", "").replace(".", "")
         if len(tok) >= 5 and re.search(r"[A-Z]", tok) and re.search(r"\d", tok) and not NOISE.match(tok):
             nxt = toks[i + 1] if i + 1 < len(toks) else ""
-            return tok + (nxt if nxt in ("PRO", "PLUS", "MAX", "ULTRA", "SE", "MINI") else "")
+            return tok + (nxt if nxt in ("PRO", "PLUS", "MAX", "ULTRA", "SE", "MINI", "I") else "")
     # резерва: „65 BIQ 8000, 65\"…“ -> 65BIQ8000 (делот пред првата запирка, без празни места)
     head = re.sub(r"[^A-Z0-9]", "", t.split(",")[0])
     return head if len(head) >= 5 and re.search(r"[A-Z]", head) and re.search(r"\d", head) else None
@@ -139,7 +142,8 @@ def tehnomarket():
             seen = set()
             for page in range(1, 40):
                 url = f"https://www.tehnomarket.com.mk/category/{slug}" + (f"/page/{page}" if page > 1 else "")
-                blocks = fetch(url).split('<li class="span4 product-fix')[1:]
+                # првиот производ во ред има класа „span4 span-first-child product-fix“
+                blocks = re.split(r'<li class="span4[^"]*?product-fix', re.sub(r"<!--.*?-->", "", fetch(url), flags=re.S))[1:]
                 ids = [re.search(r'data-id="(\d+)"', b).group(1) for b in blocks]
                 if not blocks or set(ids) <= seen:   # нема нови производи = крај
                     break
@@ -207,7 +211,11 @@ def main():
                   file=sys.stderr)
         products += got
 
-    products = [p for p in products if p["price"] and p["price"] <= CAP[p["category"]]]
+    # веќе следените производи ги чуваме и над CAP, инаку поскапувањата би исчезнале
+    kp = DATA / "prices.json"
+    known = set(json.loads(kp.read_text(encoding="utf-8"))["products"]) if kp.exists() else set()
+    products = [p for p in products if p["price"] and
+                (p["price"] <= CAP[p["category"]] or f'{p["store"]}:{p["id"]}' in known)]
     group_codes(products)
 
     (DATA / "snapshots").mkdir(parents=True, exist_ok=True)

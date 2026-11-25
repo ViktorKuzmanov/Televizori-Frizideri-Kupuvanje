@@ -20,6 +20,7 @@
   }
  },
  "tv": {
+  "55NANO81A3A": {"watch": true, "os": "webOS", "panel": "NanoCell LED", "airplay": true, "cast": null, "note": "Мој производ. На 25.11 најден само во Нептун."},
   "QE55Q7FAAUXXH": {"os": "Tizen", "panel": "QLED", "airplay": true, "cast": false, "note": "Samsung QLED 55\". Најдобра слика со сигурен AirPlay 2 во буџетот. Нема Google Cast.", "pick": 1},
   "55PUS7810": {"os": "Titan OS", "panel": "QLED", "airplay": true, "cast": null, "note": "QLED, HDR10+, HDMI 2.1. Најевтин добар 55\" QLED, особено во A1.", "pick": 2},
   "55T69C": {"os": "Google TV", "panel": "QLED", "airplay": null, "cast": true, "note": "QLED со Google TV. Google Cast е вграден. AirPlay не е потврден.", "pick": 3},
